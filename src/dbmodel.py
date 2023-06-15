@@ -27,4 +27,5 @@ class dbmodel(object):
 
             return result
         except Exception as ex:
+            print(ex.args)
             return customer_id
